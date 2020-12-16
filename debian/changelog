@@ -1,3 +1,11 @@
+alsa-lib (1.2.2-2.1ubuntu2.3) focal; urgency=medium
+
+  * d/p/0001-control-ctlparse-fix-enum-values-in-or.patch
+  - Fix ctl parsing for enum value setting, let it support both
+    "" and '' (LP: #1899857)
+
+ -- Hui Wang <hui.wang@canonical.com>  Wed, 16 Dec 2020 17:23:08 +0800
+
 alsa-lib (1.2.2-2.1ubuntu2.2) focal; urgency=medium
 
   * d/p/0001-ucm-handle-correctly-Linked-configuration.patch

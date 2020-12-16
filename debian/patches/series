@@ -54,3 +54,4 @@ python3.8.diff
 0001-ucm-add-a-check-for-the-empty-configuration.patch
 
 0001-ucm-handle-correctly-Linked-configuration.patch
+0001-control-ctlparse-fix-enum-values-in-or.patch
