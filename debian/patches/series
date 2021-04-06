@@ -55,3 +55,4 @@ python3.8.diff
 
 0001-ucm-handle-correctly-Linked-configuration.patch
 0001-control-ctlparse-fix-enum-values-in-or.patch
+0001-conf-USB-add-Cmedia-Audio-to-USB-Audio.pcm.iec95.patch
