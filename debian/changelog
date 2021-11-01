@@ -1,3 +1,12 @@
+alsa-lib (1.2.2-2.1ubuntu2.5) focal; urgency=medium
+
+  * d/p/0001-ucm-fix-regexec-REG_NOMATCH-state-handling-for-defin.patch
+    - ucm: Fix a Regex parser bug, when there is no match, need to
+    set err to 0, otherwise, the caller will get a wrong match instead of
+    no match. (LP: #1949329)
+
+ -- Hui Wang <hui.wang@canonical.com>  Mon, 01 Nov 2021 15:25:07 +0800
+
 alsa-lib (1.2.2-2.1ubuntu2.4) focal; urgency=medium
 
   * d/p/0001-conf-USB-add-Cmedia-Audio-to-USB-Audio.pcm.iec958_de.patch:
